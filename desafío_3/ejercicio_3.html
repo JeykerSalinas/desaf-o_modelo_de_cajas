@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <style>
+    body,
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .main {
+      margin: 20px;
+      text-align: center;
+    }
+    .box {
+      display: inline-block;
+      height: 20vw;
+      width: 33vw;
+      margin: 10px;
+    }
+    .espana__red {
+      background-color: red;
+      height: 27%;
+    }
+    .espana__yellow {
+      background-color: yellow;
+      height: 46%;
+    }
+
+    .japon {
+      background-color: white;
+    }
+    .dinamarca {
+      background-color: red;
+      position: relative;
+    }
+
+    .dinamarca__white {
+      background-color: white;
+      height: 10%;
+      width: 100%;
+      position: absolute;
+      top: 45%;
+    }
+
+    .dinamarca__white--vertical {
+      background-color: white;
+      height: 100%;
+      width: 7%;
+      position: absolute;
+      right: 62%;
+    }
+
+    .emiratos {
+      position: relative;
+    }
+    .emiratos__red {
+      background-color: red;
+      height: 100%;
+      width: 8vw;
+      position: absolute;
+    }
+
+    .emiratos__green {
+      background-color: green;
+      height: 33.3%;
+    }
+    .emiratos__white {
+      background-color: white;
+      height: 33.4%;
+    }
+    .emiratos__black {
+      background-color: black;
+      height: 33.3%;
+    }
+    .japon__ball {
+      background-color: red;
+      border-radius: 50%;
+      width: 10vw;
+      height: 10vw;
+      position: absolute;
+      right: 32.5%;
+      top: 25.5%;
+    }
+  </style>
+  <body>
+    <section class="main">
+      <section class="box espana">
+        <div class="espana__red"></div>
+        <div class="espana__yellow"></div>
+        <div class="espana__red"></div>
+      </section>
+      <section class="box dinamarca">
+        <div class="dinamarca__white"></div>
+        <div class="dinamarca__white--vertical"></div>
+      </section>
+      <section class="box emiratos">
+        <div class="emiratos__red"></div>
+
+        <div class="" style="height: 20vw; width: 33vw">
+          <div class="emiratos__green"></div>
+          <div class="emiratos__white"></div>
+          <div class="emiratos__black"></div>
+        </div>
+      </section>
+      <section class="box japon" style="position: relative">
+        <div class="japon__ball"></div>
+      </section>
+    </section>
+  </body>
+</html>
